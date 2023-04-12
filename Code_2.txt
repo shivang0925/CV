@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <title>Shivang Tiwari</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="favicon.ico">
+ </head>
+ <body>
+    <div class="top-container">
+        <h1>I'm Shivang.</h1>
+        <p>a <span class="d">D</span>eveloper</p>
+    </div>
+    <div class="middle-container"></div>
+    <div class="bottom-container"></div>
+    
+ </body>
+</html>
+
+-------------------------------------------------------]]
+
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+h1{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.top-container{
+    background-color: #e5eaf5;
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-width: 10px;
+    padding: 20px;
+}
+
+.middle-container{
+    background-color: #fff685;
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-width: 20px;
+    margin-left: 260px;
+}
+
+.bottom-container{
+    background-color: #e1b382;
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-width: 10px;
+    margin-left: 500px;
+}
+
+.d{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+}

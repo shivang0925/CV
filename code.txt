@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/shiv_styles.css">
+</head>
+<body>
+   <div class="container">
+    <div class="red">
+
+    </div>
+   </div>
+
+
+-------------------------------------------------------
+
+body{
+    margin: 0;
+}
+
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+    position: relative;
+}
+
+.red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.blue{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    
+}
+
+.yellow{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    
+    
+}
+    
+    <div class="blue">
+
+    </div>
+    <div class="yellow">
+
+    </div>
+   
+
+</body>
+</html>
